@@ -4,6 +4,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objs as go
 from dash import State
+import os
 
 url = "https://raw.githubusercontent.com/leonism/sample-superstore/master/data/superstore.csv"
 df = pd.read_csv(url)
@@ -252,4 +253,7 @@ def download_filtered_data(n_clicks, category, region, subcat):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False,
+            host= "0.0.0.0",
+            port = int(os.environ.get('PORT', 8050))
+            )
