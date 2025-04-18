@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #f5f5f5
+}
+
+h1, h2, h3, h4{color, #f5f5f5;}
+
+
+/* Dropdown selected value (top field) */
+.custom-dropdown .Select-control {
+  background-color: #1f1f1f !important;
+  color: white !important;
+  border: 1px solid #444;
+}
+
+.custom-dropdown .Select-value-label {
+  color: white !important;
+}
+
+/* Dropdown popup menu */
+.Select-menu-outer {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Individual options */
+.Select-option {
+  color: black !important;
+  background-color: white !important;
+}
+
+.Select-option:hover {
+  background-color: #f0f0f0 !important;
+  cursor: pointer;
+}
+
+.kpi-card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.kpi-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.15);
+}
+
+button {
+  background-color: #1f1f1f;
+  color: #f5f5f5;
+  border: 1px solid #444;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+/* 🎛️ Dropdowns */
+.custom-dropdown .Select-control {
+  background-color: #1f1f1f !important;
+  color: white !important;
+  border: 1px solid #444 !important;
+}
+.Select-menu-outer {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc;
+}
+.Select-option {
+  background-color: white !important;
+  color: black !important;
+}
+.Select-option:hover {
+  background-color: #f0f0f0 !important;
+}
+
+/* 📋 DataTable */
+.dash-table-container {
+  margin-top: 20px;
+}
+.dash-table-container .dash-table {
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #444;
+}
+.dash-table-container .dash-table th {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-weight: bold;
+  border: 1px solid #444;
+}
+.dash-table-container .dash-table td {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border: 1px solid #444;
+}
+
+/* Section Wrappers */
+.section {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 8px;
+}
